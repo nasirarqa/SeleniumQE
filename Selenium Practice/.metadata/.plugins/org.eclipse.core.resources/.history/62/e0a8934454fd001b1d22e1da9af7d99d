@@ -1,0 +1,25 @@
+package SeleniumJavaTest;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class SeleniumEasy {
+	static WebDriver driver;
+	static String url = "https://www.seleniumeasy.com/test/basic-first-form-demo.html";
+	static String browser;
+	
+	
+	public static void main(String[] args) {
+		System.setProperty("webdriver.gecko.driver", "C:\\GeckoDriver\\geckodriver\\geckodriver.exe");
+		driver = new FirefoxDriver();
+		driver.get(url);
+		
+		WebElement NoThanks = driver.findElement(By.id("at-cv-lightbox-button-holder"));
+		NoThanks.submit();
+		
+		
+	}
+
+}

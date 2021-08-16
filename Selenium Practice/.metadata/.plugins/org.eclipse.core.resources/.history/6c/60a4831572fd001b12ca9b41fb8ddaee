@@ -1,0 +1,29 @@
+package SeleniumJavaTest;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class SeleniumEasy {
+	static WebDriver driver;
+	static String url = "https://www.seleniumeasy.com/test/basic-first-form-demo.html";
+	static String browser;
+	
+	
+	public static void main(String[] args) {
+		System.setProperty("webdriver.gecko.driver", "C:\\GeckoDriver\\geckodriver\\geckodriver.exe");
+		driver = new FirefoxDriver();
+		driver.get(url);
+		
+		WebElement Textbox = driver.findElement(By.id("user-message"));
+		Textbox.sendKeys("This is my first selenium code");
+		
+		WebElement button = driver.findElement(By.xpath("//button[@innertext='Show Message']"));
+		button.click();
+	}
+}
+
+
