@@ -1,0 +1,57 @@
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class BlueDart {
+	
+	WebDriver driver;
+	String browser;
+	static String url = "https://www.bluedart.com";
+	
+	BlueDart(String browser){
+		this.browser = browser;
+		switch (browser){
+		
+		case "Firefox":
+			WebDriverManager.firefoxdriver().setup();
+			driver = new FirefoxDriver();
+			break;
+			
+		case "Chrome":
+			WebDriverManager.chromedriver().setup();
+			driver = new ChromeDriver();
+			break;
+			
+		case "Edge":
+			WebDriverManager.edgedriver().setup();
+			driver = new EdgeDriver();
+			break;
+			
+		default:
+			WebDriverManager.iedriver().setup();
+			driver = new InternetExplorerDriver();
+			break;
+		
+		}
+	}
+	
+	
+	
+
+	public static void main(String[] args) {
+		
+		BlueDart dhlTracking = new BlueDart("Chrome");
+		dhlTracking.driver.get(url);
+		dhlTracking.driver.close();
+		dhlTracking.driver.quit();
+			
+	
+			
+			
+		}
+
+}
