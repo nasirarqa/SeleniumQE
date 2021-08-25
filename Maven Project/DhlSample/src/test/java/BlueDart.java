@@ -9,6 +9,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import Utilities.ExcelUtilities;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BlueDart {
@@ -53,8 +54,15 @@ public class BlueDart {
 	
 	@Test
 	public void checkTracking(){
+		String udPath = System.getProperty("user.dir");
+		String projPath = udPath+"\\Excel\\TestData.xlsx";
+		Utilities.ExcelUtilities xlUtil = new Utilities.ExcelUtilities(projPath, "Waybill");
+		int total = xlUtil.getRowCount();
+		for(int i=1;i<=total; i++){
+			double cData = xlUtil.getCellData(i, 0);
+		
 		WebElement waybillTextbox = driver.findElement(By.xpath("//div//textarea[@id='trackingNoTrackDart']"));
-		waybillTextbox.sendKeys("38562625975");
+		waybillTextbox.sendKeys(String.valueOf(cData));
 		WebElement goButton = driver.findElement(By.xpath("//p//input[1][@id='goBtnTrackDart']"));
 		goButton.click();
 		
@@ -69,6 +77,7 @@ public class BlueDart {
 		else
 		{
 			System.out.println("Shipment is not delivered with the status "+actualStatus);
+		}
 		}
 		
 	}	

@@ -6,6 +6,126 @@
     <language>en</language>
      <atom:link href="https://marketplace.eclipse.org/rss.xml" rel="self" type="application/rss+xml" />
       <item>
+    <title>Design and Verification Tools (DVT) IDE for e, SystemVerilog, VHDL, and PSS</title>
+    <link>https://marketplace.eclipse.org/content/design-and-verification-tools-dvt-ide-e-systemverilog-vhdl-and-pss</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/AMIQ_logo_web_110x63.jpg&quot; width=&quot;110&quot; height=&quot;63&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/emisingname6ia/listings&quot; title=&quot;etools Mising name&quot;&gt;etools Mising name&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2006-04-19 08:00&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2021-08-24 08:32&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22AMIQ%20EDA%22&quot;&gt;AMIQ EDA&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Design and Verification Tools (DVT) is an integrated development environment (IDE) for the design and verification engineers working with &lt;strong&gt;SystemVerilog, Verilog, VHDL, e, UPF, CPF, SLN, PSS, SDL&lt;/strong&gt;. &lt;strong&gt;Including Universal Verification Methodology (UVM)&lt;/strong&gt; support. It is similar to well-known programming tools like Visual Studio®, NetBeans®, and IntelliJ®. DVT comprises a proprietary IEEE standard-compliant parser, a smart code editor, an intuitive GUI, a comprehensive set of features that help with code inspection, navigation, documentation, and debugging, and an innovative linting framework. DVT allows design and verification engineers to overcome the limitations of plain text editors and use a modern and powerful tool that enables them to:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Increase the speed and quality of new code development&lt;/li&gt;
+&lt;li&gt;Easily understand complex or poorly documented source code&lt;/li&gt;
+&lt;li&gt;Simplify the maintenance of legacy code and reusable libraries&lt;/li&gt;
+&lt;li&gt;Accelerate language and methodology learning&lt;/li&gt;
+&lt;li&gt;Automatically generate well-organized source code documentation&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;
+FEATURES  Some of the features that DVT offers include:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Compilation errors signaled on the fly&lt;/li&gt;
+&lt;li&gt;Autocomplete / Content Assist&lt;/li&gt;
+&lt;li&gt;Customizable code and project templates&lt;/li&gt;
+&lt;li&gt;Dedicated wizards to generate getters and setters, override functions, or help with UVM factory registration&lt;/li&gt;
+&lt;li&gt;Hyperlinks&lt;/li&gt;
+&lt;li&gt;Semantic Search and Show Usages&lt;/li&gt;
+&lt;li&gt;Quick fixes / Autocorrect&lt;/li&gt;
+&lt;li&gt;Refactoring&lt;/li&gt;
+&lt;li&gt;Macro expansion&lt;/li&gt;
+&lt;li&gt;Project database query views (types, macros, checks, etc.)&lt;/li&gt;
+&lt;li&gt;Structural views (type hierarchy, design hierarch, call hierarchy, etc.)&lt;/li&gt;
+&lt;li&gt;Signal tracing&lt;/li&gt;
+&lt;li&gt;UML and TLM diagrams for inspecting and documenting the verification environment&lt;/li&gt;
+&lt;li&gt;Schematic, trace, state machine diagrams for inspecting and documenting the design&lt;/li&gt;
+&lt;li&gt;Dedicated UVM support&lt;/li&gt;
+&lt;li&gt;Cross-language capabilities for mixed-language projects&lt;/li&gt;
+&lt;li&gt;In-line reminders for task tracking (TO DOs)&lt;/li&gt;
+&lt;li&gt;Vi and emacs emulation&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt; &lt;/p&gt;
+&lt;p&gt;INTEGRATION WITH OTHER TOOLS Since it is built on the Eclipse Platform, the DVT IDE can be easily integrated within a large plug-in ecosystem. It also integrates seamlessly with all major hardware simulators such as NCSim , Specman , VCS , and Questa, to enable simplified simulation analysis and debugging. In addition, it works with revision control systems like CVS, Git, Subversion, ClearCase and bug tracking systems such as Bugzilla and ClearQuest.&lt;br /&gt;
+RESOURCES &lt;/p&gt;
+&lt;p&gt; &lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.dvteclipse.com/products/dvt-eclipse-ide&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;DVT Eclipse IDE Web Page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.dvteclipse.com/datasheets/amiq_dvt_datasheet.pdf&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;DVT Eclipse IDE Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLBx64n-99iZNiUJj_I8WkLLbRl8u0mi94&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Demo movies&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.dvteclipse.com/products/dvt-debugger&quot; rel=&quot;nofollow&quot;&gt;DVT Debugger Add-on&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 19 Apr 2006 12:00:18 +0000</pubDate>
+ <dc:creator>emisingname6ia</dc:creator>
+ <guid isPermaLink="false">192 at https://marketplace.eclipse.org</guid>
+ <comments>https://marketplace.eclipse.org/content/design-and-verification-tools-dvt-ide-e-systemverilog-vhdl-and-pss#comments</comments>
+  </item>
+  <item>
+    <title>The Arduino Eclipse plugin named Sloeber</title>
+    <link>https://marketplace.eclipse.org/content/arduino-eclipse-plugin-named-sloeber</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/splash_1.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/jbaeyens/listings&quot; title=&quot;jan baeyens&quot;&gt;jan baeyens&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2014-02-03 09:42&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2021-08-23 10:59&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22jantje%20and%20others%22&quot;&gt;jantje and others&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This plugin allows you to &lt;strong&gt;create&lt;/strong&gt;, &lt;strong&gt;compile&lt;/strong&gt; and &lt;strong&gt;upload &lt;/strong&gt;sketches with nearly the same simplicity as the Arduino IDE but with all full functional features one would expect from a professional IDE and includes a &lt;strong&gt;serial monitor&lt;/strong&gt; and a &lt;strong&gt;graphical plotter&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;This is a free and open-source plugin that is a professional and complete alternative to the Arduino IDE. This is an add-on to the CDT plugin and as such has all C/C++ development features plus a toolbar with the Arduino buttons from the Arduino IDE and an Arduino menu for importing libraries and more. There is no dependency on the Arduino IDE.Sloeber supports 500+ boards and 3 languages (English, Dutch, Italian).&lt;br /&gt;
+Note: This is the plugin which can be installed by experianced eclipse users.This solution is also available as a product on the marketplace.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Beginners are advised to install the product.&lt;/strong&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Mon, 03 Feb 2014 14:42:28 +0000</pubDate>
+ <dc:creator>jbaeyens</dc:creator>
+ <guid isPermaLink="false">1465503 at https://marketplace.eclipse.org</guid>
+ <comments>https://marketplace.eclipse.org/content/arduino-eclipse-plugin-named-sloeber#comments</comments>
+  </item>
+  <item>
+    <title>The Arduino Eclipse IDE named Sloeber (Product)</title>
+    <link>https://marketplace.eclipse.org/content/arduino-eclipse-ide-named-sloeber-product</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/logo_256.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/jbaeyens/listings&quot; title=&quot;jan baeyens&quot;&gt;jan baeyens&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2015-12-07 15:29&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2021-08-23 10:55&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22jantje%20and%20others%22&quot;&gt;jantje and others&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;This product allows you to &lt;strong&gt;create&lt;/strong&gt;, &lt;strong&gt;compile&lt;/strong&gt; and &lt;strong&gt;upload &lt;/strong&gt;sketches with nearly the same simplicity as the Arduino IDE but with all full functional features one would expect from a professional IDE and includes a &lt;strong&gt;serial monitor&lt;/strong&gt; and a &lt;strong&gt;graphical plotter&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;This is a free and open-source plugin that is a professional and complete alternative to the Arduino IDE. This is an add-on to the CDT plugin and as such has all C/C++ development features plus a toolbar with the Arduino buttons from the Arduino IDE and an Arduino menu for importing libraries and more. There is no dependency on the Arduino IDE. Sloeber supports 500+ boards and 3 languages (English, Dutch, Italian).&lt;/p&gt;
+&lt;p&gt;Beginners are advised to install this stable product.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Linux download page &lt;a href=&quot;https://eclipse.baeyens.it/stable.php?OS=Linux&quot; rel=&quot;nofollow&quot;&gt;https://eclipse.baeyens.it/stable.php?OS=Linux&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Mac download page &lt;a href=&quot;https://eclipse.baeyens.it/stable.php?OS=MacOS&quot; rel=&quot;nofollow&quot;&gt;https://eclipse.baeyens.it/stable.php?OS=MacOS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Windows download page &lt;a href=&quot;https://eclipse.baeyens.it/stable.php?OS=Windows&quot; rel=&quot;nofollow&quot;&gt;http://eclipse.baeyens.it/stable.php?OS=Windows&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Mon, 07 Dec 2015 20:29:50 +0000</pubDate>
+ <dc:creator>jbaeyens</dc:creator>
+ <guid isPermaLink="false">2637354 at https://marketplace.eclipse.org</guid>
+ <comments>https://marketplace.eclipse.org/content/arduino-eclipse-ide-named-sloeber-product#comments</comments>
+  </item>
+  <item>
+    <title>Protector4J</title>
+    <link>https://marketplace.eclipse.org/content/protector4j</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/android-chrome-512x512.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/ylin0gf/listings&quot; title=&quot;Yongfa Lin&quot;&gt;Yongfa Lin&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-06-27 05:41&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sun, 2021-08-22 10:04&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22VLINX%20Software%22&quot;&gt;VLINX Software&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Protect Java Code from Decompilation by Encrypting the Java Classes, beyond Obfuscation.&lt;/p&gt;
+&lt;p&gt;Support JavaSE App, Tomcat Web App, Spring Boot App, GlassFish App, Payara App and Java 8, Java 11 Environment.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Guide of installation of eclipse plugin: &lt;a href=&quot;https://protector4j.com/docs/eclipse-plugin/&quot; rel=&quot;nofollow&quot;&gt;https://protector4j.com/docs/eclipse-plugin/&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;After installed, please click Window -&amp;gt; Show View-&amp;gt;Other..., then find the Protector4J View in the dialog&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Documention: &lt;a href=&quot;https://protector4j.com/docs/get-started&quot; rel=&quot;nofollow&quot;&gt;https://protector4j.com/docs/get-started&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Site: &lt;a href=&quot;https://protector4j.com&quot; rel=&quot;nofollow&quot;&gt;https://protector4j.com&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 27 Jun 2017 09:41:40 +0000</pubDate>
+ <dc:creator>ylin0gf</dc:creator>
+ <guid isPermaLink="false">3513853 at https://marketplace.eclipse.org</guid>
+ <comments>https://marketplace.eclipse.org/content/protector4j#comments</comments>
+  </item>
+  <item>
+    <title>SQL DAL Maker</title>
+    <link>https://marketplace.eclipse.org/content/sql-dal-maker</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/sqldalmaker_24.png&quot; width=&quot;24&quot; height=&quot;24&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/pmisingnameeok/listings&quot; title=&quot;panedrone Mising name&quot;&gt;panedrone Mising name&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2011-08-02 18:05&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sun, 2021-08-22 04:43&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22.%22&quot;&gt;.&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;A generator of DTO and DAO classes to access relational databases. Target programming languages: PHP, Java, C++, Python, Ruby, and Go. To generate the class, you declare it in XML meta-program.&lt;/p&gt;
+&lt;p&gt;Source Code: &lt;a href=&quot;https://github.com/panedrone/sqldalmaker&quot; rel=&quot;nofollow&quot;&gt;https://github.com/panedrone/sqldalmaker&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Quick-Demo in mp4: &lt;a href=&quot;https://github.com/panedrone/sqldalmaker/releases/tag/latest&quot; rel=&quot;nofollow&quot;&gt;https://github.com/panedrone/sqldalmaker/releases/tag/latest&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Tue, 02 Aug 2011 22:05:21 +0000</pubDate>
+ <dc:creator>pmisingnameeok</dc:creator>
+ <guid isPermaLink="false">97312 at https://marketplace.eclipse.org</guid>
+ <comments>https://marketplace.eclipse.org/content/sql-dal-maker#comments</comments>
+  </item>
+  <item>
+    <title>ESP-IDF Eclipse plugin</title>
+    <link>https://marketplace.eclipse.org/content/esp-idf-eclipse-plugin</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/espressif.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/kmisingname14o/listings&quot; title=&quot;Kondal Kolipaka&quot;&gt;Kondal Kolipaka&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2019-11-27 03:11&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2021-08-20 06:01&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Espressif%20Systems%22&quot;&gt;Espressif Systems&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;&lt;strong&gt;ESP-IDF Plugin&lt;/strong&gt; for Eclipse is based on Eclipse CDT for developing applications on &lt;strong&gt;ESP32&lt;/strong&gt;. ESP32 is a popular low-power system on chip microcontrollers with integrated Wi-Fi and dual-mode Bluetooth, making it suitable for designing and prototyping IoT solutions.  ESP-IDF Plugin provides better tooling capabilities, which simplifies and enhances standard Eclipse CDT. It offers advanced editing, compiling, flashing, and debugging features.&lt;/p&gt;
+&lt;p&gt;Other notable features this plugin offers.&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;Creating CMake based projects with ESP-IDF 4.0 and higher&lt;/li&gt;
+&lt;li&gt;Get started ESP-IDF templates  &lt;/li&gt;
+&lt;li&gt;Installing Tools directly from Eclipse&lt;/li&gt;
+&lt;li&gt;SDK Configuration editor for configuring the project&lt;/li&gt;
+&lt;li&gt;Integrated CMake editor to support IDF built-in functions&lt;/li&gt;
+&lt;li&gt;Application size analysis editor to give an insight into the memory footprint of an application&lt;/li&gt;
+&lt;li&gt;ESP-IDF terminal pre-configured with IDF environment variables&lt;/li&gt;
+&lt;li&gt;GDB Hardware and OpenOCD debugging&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;This is an open-source project you can check the project source here &lt;a href=&quot;https://github.com/espressif/idf-eclipse-plugin&quot; rel=&quot;nofollow&quot;&gt;https://github.com/espressif/idf-eclipse-plugin&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note: &lt;/strong&gt;Plugin supports ESP-IDF CMake based projects (4.x and above) and it runs on Windows, macOS, and GNU/Linux.&lt;/p&gt;
+&lt;p&gt;Documentation: &lt;a href=&quot;https://github.com/espressif/idf-eclipse-plugin/blob/master/README.md&quot; rel=&quot;nofollow&quot;&gt;https://github.com/espressif/idf-eclipse-plugin/blob/master/README.md&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;To know more about ESP-IDF &lt;a href=&quot;https://github.com/espressif/esp-idf&quot; rel=&quot;nofollow&quot;&gt;https://github.com/espressif/esp-idf&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Github repo: &lt;a href=&quot;https://github.com/espressif/idf-eclipse-plugin&quot; rel=&quot;nofollow&quot;&gt;https://github.com/espressif/idf-eclipse-plugin&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
+     <pubDate>Wed, 27 Nov 2019 08:11:50 +0000</pubDate>
+ <dc:creator>kmisingname14o</dc:creator>
+ <guid isPermaLink="false">4898373 at https://marketplace.eclipse.org</guid>
+ <comments>https://marketplace.eclipse.org/content/esp-idf-eclipse-plugin#comments</comments>
+  </item>
+  <item>
     <title>Groovy Development Tools</title>
     <link>https://marketplace.eclipse.org/content/groovy-development-tools</link>
     <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/groovy-logo-medium.png&quot; width=&quot;110&quot; height=&quot;55&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/aclement/listings&quot; title=&quot;Andrew Clement&quot;&gt;Andrew Clement&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2012-07-04 13:05&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2021-08-19 14:53&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Pivotal%22&quot;&gt;Pivotal&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;The Groovy Development Tools (GDT) provides Eclipse and Maven (m2e) support for the &lt;a href=&quot;http://groovy-lang.org&quot; rel=&quot;nofollow&quot;&gt;Apache Groovy&lt;/a&gt; programming language. GDT adds full-featured IDE support including editors, wizards, content assist, debugging, refactoring and searching.&lt;/p&gt;
@@ -86,157 +206,6 @@ For GNU R see: &lt;a href=&quot;https://gitlab.com/walware/de.walware.rj-server.
  <dc:creator>stwahlbrin</dc:creator>
  <guid isPermaLink="false">9295 at https://marketplace.eclipse.org</guid>
  <comments>https://marketplace.eclipse.org/content/statet-r#comments</comments>
-  </item>
-  <item>
-    <title>Bazel Eclipse Feature</title>
-    <link>https://marketplace.eclipse.org/content/bazel-eclipse-feature</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/bef_logo_marketplace_0.jpg&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/plaird/listings&quot; title=&quot;Peter Laird&quot;&gt;Peter Laird&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sun, 2021-05-16 01:27&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2021-08-19 00:29&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Salesforce%22&quot;&gt;Salesforce&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Bazel Eclipse Feature provides Bazel integration for Eclipse for Java projects. It uses the existing Java tooling (JDT) in Eclipse to provide developers with all the features that they expect for Java IDEs.&lt;/p&gt;
-&lt;p&gt;Here is a list of features available in Bazel Eclipse:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Selective importing of Bazel packages with Java rules (&lt;em&gt;java_library, java_test, java_binary, springboot&lt;/em&gt;)&lt;/li&gt;
-&lt;li&gt;Faithful translation of the Bazel dependency graph into the Eclipse classpath&lt;/li&gt;
-&lt;li&gt;Code completion, syntax highlighting, type navigation and other standard Java editor features&lt;/li&gt;
-&lt;li&gt;Debugging&lt;/li&gt;
-&lt;li&gt;Test invocations and interpretation of test results&lt;/li&gt;
-&lt;li&gt;Navigate into source jars for external Java dependencies (e.g. &lt;em&gt;maven_install&lt;/em&gt;) &lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt;Supported on macOS, Linux, and Windows&lt;/p&gt;
-&lt;p&gt;Helpful links:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://github.com/salesforce/bazel-eclipse&quot; rel=&quot;nofollow&quot;&gt;BEF GitHub repository&lt;/a&gt;, includes User Guide and docs&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://github.com/salesforce/bazel-eclipse/releases&quot; rel=&quot;nofollow&quot;&gt;BEF Releases&lt;/a&gt;, includes detailed notes for each release
-&lt;p&gt; &lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Sun, 16 May 2021 05:27:30 +0000</pubDate>
- <dc:creator>plaird</dc:creator>
- <guid isPermaLink="false">5403450 at https://marketplace.eclipse.org</guid>
- <comments>https://marketplace.eclipse.org/content/bazel-eclipse-feature#comments</comments>
-  </item>
-  <item>
-    <title>Design and Verification Tools (DVT) IDE for e, SystemVerilog, VHDL, and PSS</title>
-    <link>https://marketplace.eclipse.org/content/design-and-verification-tools-dvt-ide-e-systemverilog-vhdl-and-pss</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/AMIQ_logo_web_110x63.jpg&quot; width=&quot;110&quot; height=&quot;63&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/emisingname6ia/listings&quot; title=&quot;etools Mising name&quot;&gt;etools Mising name&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2006-04-19 08:00&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2021-08-18 15:49&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22AMIQ%20EDA%22&quot;&gt;AMIQ EDA&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Design and Verification Tools (DVT) is an integrated development environment (IDE) for the design and verification engineers working with &lt;strong&gt;SystemVerilog, Verilog, VHDL, e, UPF, CPF, SLN, PSS, SDL&lt;/strong&gt;. &lt;strong&gt;Including Universal Verification Methodology (UVM)&lt;/strong&gt; support. It is similar to well-known programming tools like Visual Studio®, NetBeans®, and IntelliJ®. DVT comprises a proprietary IEEE standard-compliant parser, a smart code editor, an intuitive GUI, a comprehensive set of features that help with code inspection, navigation, documentation, and debugging, and an innovative linting framework. DVT allows design and verification engineers to overcome the limitations of plain text editors and use a modern and powerful tool that enables them to:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Increase the speed and quality of new code development&lt;/li&gt;
-&lt;li&gt;Easily understand complex or poorly documented source code&lt;/li&gt;
-&lt;li&gt;Simplify the maintenance of legacy code and reusable libraries&lt;/li&gt;
-&lt;li&gt;Accelerate language and methodology learning&lt;/li&gt;
-&lt;li&gt;Automatically generate well-organized source code documentation&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;
-FEATURES  Some of the features that DVT offers include:&lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;Compilation errors signaled on the fly&lt;/li&gt;
-&lt;li&gt;Autocomplete / Content Assist&lt;/li&gt;
-&lt;li&gt;Customizable code and project templates&lt;/li&gt;
-&lt;li&gt;Dedicated wizards to generate getters and setters, override functions, or help with UVM factory registration&lt;/li&gt;
-&lt;li&gt;Hyperlinks&lt;/li&gt;
-&lt;li&gt;Semantic Search and Show Usages&lt;/li&gt;
-&lt;li&gt;Quick fixes / Autocorrect&lt;/li&gt;
-&lt;li&gt;Refactoring&lt;/li&gt;
-&lt;li&gt;Macro expansion&lt;/li&gt;
-&lt;li&gt;Project database query views (types, macros, checks, etc.)&lt;/li&gt;
-&lt;li&gt;Structural views (type hierarchy, design hierarch, call hierarchy, etc.)&lt;/li&gt;
-&lt;li&gt;Signal tracing&lt;/li&gt;
-&lt;li&gt;UML and TLM diagrams for inspecting and documenting the verification environment&lt;/li&gt;
-&lt;li&gt;Schematic, trace, state machine diagrams for inspecting and documenting the design&lt;/li&gt;
-&lt;li&gt;Dedicated UVM support&lt;/li&gt;
-&lt;li&gt;Cross-language capabilities for mixed-language projects&lt;/li&gt;
-&lt;li&gt;In-line reminders for task tracking (TO DOs)&lt;/li&gt;
-&lt;li&gt;Vi and emacs emulation&lt;/li&gt;
-&lt;/ul&gt;&lt;p&gt; &lt;/p&gt;
-&lt;p&gt;INTEGRATION WITH OTHER TOOLS Since it is built on the Eclipse Platform, the DVT IDE can be easily integrated within a large plug-in ecosystem. It also integrates seamlessly with all major hardware simulators such as NCSim , Specman , VCS , and Questa, to enable simplified simulation analysis and debugging. In addition, it works with revision control systems like CVS, Git, Subversion, ClearCase and bug tracking systems such as Bugzilla and ClearQuest.&lt;br /&gt;
-RESOURCES &lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.dvteclipse.com/products/dvt-eclipse-ide&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;DVT Eclipse IDE Web Page&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.dvteclipse.com/datasheets/amiq_dvt_datasheet.pdf&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;DVT Eclipse IDE Datasheet&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PLBx64n-99iZNiUJj_I8WkLLbRl8u0mi94&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Demo movies&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://www.dvteclipse.com/products/dvt-debugger&quot; rel=&quot;nofollow&quot;&gt;DVT Debugger Add-on&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Wed, 19 Apr 2006 12:00:18 +0000</pubDate>
- <dc:creator>emisingname6ia</dc:creator>
- <guid isPermaLink="false">192 at https://marketplace.eclipse.org</guid>
- <comments>https://marketplace.eclipse.org/content/design-and-verification-tools-dvt-ide-e-systemverilog-vhdl-and-pss#comments</comments>
-  </item>
-  <item>
-    <title>Spring Tools 4 (aka Spring Tool Suite 4)</title>
-    <link>https://marketplace.eclipse.org/content/spring-tools-4-aka-spring-tool-suite-4</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/sts4-marketplace-icon.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mlippert/listings&quot; title=&quot;Martin Lippert&quot;&gt;Martin Lippert&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Fri, 2014-07-11 12:41&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2021-08-18 07:38&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22VMware%22&quot;&gt;VMware&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;h2&gt;Spring Tools 4&lt;/h2&gt;
-&lt;p&gt;Spring Tools 4 is the next generation of Spring tooling for your favorite coding enrivonment. Largely rebuilt from scratch, it provides world-class support for developing Spring-Boot-based enterprise applications, whether you prefer Eclipse, Visual Studio Code, or Atom IDE.&lt;/p&gt;
-&lt;h3&gt;Getting Started&lt;/h3&gt;
-&lt;p&gt;Spring Tool Suite 4 makes it easy to get started. A direct and easy-to-use integration of the Spring Initializr and the famous Spring Guides allows you to go from nothing to a running Spring Boot app in seconds.&lt;/p&gt;
-&lt;h3&gt;Navigate your Spring code at the speed of light&lt;/h3&gt;
-&lt;p&gt;Understanding and quickly navigating source code is essential for coding. The new Spring Tools 4 understands your Spring-Boot-based source code and allows you to quickly get an overview and navigate to the important pieces of your Spring apps. Finding Spring elements and navigating to them has never been easier.&lt;/p&gt;
-&lt;h3&gt;Smart Code Editing&lt;/h3&gt;
-&lt;p&gt;Code completion is a critical part of working with source code. The all-new Spring Tools 4 provides smart code completions for the Spring elements in your app.&lt;/p&gt;
-&lt;h3&gt;Runtime Information In Your Editor&lt;/h3&gt;
-&lt;p&gt;Spring Tools 4 now bridges the gap between your source code and running Spring Boot applications. By taking advantage of the Spring Boot Actuators, we enriched the source code with detailed information from the running app (e.g., exact bean wiring information, conditional reports, configuration, details, and more).&lt;/p&gt;
-&lt;h3&gt;Not working with Spring Boot yet and looking for the old Spring Tool Suite 3?&lt;/h3&gt;
-&lt;p&gt;Not yet working with Spring Boot, but looking for tooling for your regular Spring projects? As long as the all-new Spring Tools 4 do not support non-boot Spring projects, please refer to the previous generation of Spring Tools for Eclipse, also known as Spring Tool Suite 3 or Spring IDE, you should look at the &quot;Spring Tools 3 Add-On&quot; entry in the marketplace here: &lt;a href=&quot;https://marketplace.eclipse.org/content/spring-tools-3-add-aka-spring-tool-suite-3&quot; rel=&quot;nofollow&quot;&gt;https://marketplace.eclipse.org/content/spring-tools-3-add-aka-spring-tool-suite-3&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Fri, 11 Jul 2014 16:41:17 +0000</pubDate>
- <dc:creator>mlippert</dc:creator>
- <guid isPermaLink="false">1794107 at https://marketplace.eclipse.org</guid>
- <comments>https://marketplace.eclipse.org/content/spring-tools-4-aka-spring-tool-suite-4#comments</comments>
-  </item>
-  <item>
-    <title>Spring Tools 3 Add-On for Spring Tools 4</title>
-    <link>https://marketplace.eclipse.org/content/spring-tools-3-add-spring-tools-4</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/sts3-marketplace-icon.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/mlippert/listings&quot; title=&quot;Martin Lippert&quot;&gt;Martin Lippert&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2018-09-25 17:35&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2021-08-18 07:35&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22VMware%22&quot;&gt;VMware&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;p&gt;Spring Tools 3 Add-On for Spring Tools 4&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Attention: This add-on pack provides additional components from the previous Spring Tools 3 generation to be installed into an Eclipse with Spring Tools 4 already installed. To avoid installation issues with overlapping features, this will NOT install everything from the previous Spring Tool Suite 3 into a plain Eclipse. If you want to purely install all the STS3 components into a plain Eclipse, please use the specific marketplace &quot;Spring Tools 3 (Standalone Edition)&quot; entry for that.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;The Spring Tools 3 contain the previous generation Spring tooling for Eclipse, mostly focused on working with Spring apps configured using XML and providing validation support for various additional Spring projects, like Spring AOP, Spring Webflow, Spring Integration, etc. This can be installed as an add-on into the Spring Tools 4 for Eclipse as well as into a plain Eclipse installation, if you still have projects that are not migrated to Spring Boot and/or you would like to continue to use features of the previous Spring tooling generation that aren&#039;t yet been part of the all-new Spring Tools 4.&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Tue, 25 Sep 2018 21:35:57 +0000</pubDate>
- <dc:creator>mlippert</dc:creator>
- <guid isPermaLink="false">4290168 at https://marketplace.eclipse.org</guid>
- <comments>https://marketplace.eclipse.org/content/spring-tools-3-add-spring-tools-4#comments</comments>
-  </item>
-  <item>
-    <title>PL/SQL Enterprise Workbench</title>
-    <link>https://marketplace.eclipse.org/content/plsql-enterprise-workbench</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/workbench_80x80.png&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/jrichter847/listings&quot; title=&quot;Jan Richter&quot;&gt;Jan Richter&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2017-02-27 18:53&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2021-08-17 21:52&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Jan%20Richter%2C%20Germany%2C%20Hamburg%22&quot;&gt;Jan Richter, Germany, Hamburg&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;h4&gt;&lt;strong&gt;PL/SQL Development&lt;/strong&gt;&lt;/h4&gt;
-&lt;ol&gt;&lt;li&gt;The PL/SQL Workbench Perspective allows to organize the PL/SQL stored procedure resources.&lt;/li&gt;
-&lt;li&gt;Edit stored procedures and supports content assist, failure marker, syntax highlighting and outline view.&lt;/li&gt;
-&lt;li&gt;Lists problems and supports scm systems like git and subversion.&lt;/li&gt;
-&lt;/ol&gt;&lt;h4&gt;&lt;strong&gt;PL/SQL Connector Builder&lt;/strong&gt;&lt;/h4&gt;
-&lt;ol&gt;&lt;li&gt;The PL/SQL Connector Builder generates Java access code to call the stored procedures directly by JDBC.&lt;/li&gt;
-&lt;li&gt;Only the JDBC driver is required - no additional framework needed.&lt;/li&gt;
-&lt;li&gt;Call the PL/SQL Connector Builder on a single resource, complete or via CI/CD process.&lt;/li&gt;
-&lt;/ol&gt;&lt;h4&gt;&lt;strong&gt;Maven Integration&lt;/strong&gt;&lt;/h4&gt;
-&lt;ol&gt;&lt;li&gt;The PL/SQL Connector Builder is fully integrated to Maven.&lt;/li&gt;
-&lt;li&gt;The generated code can automatically be generated in every build.&lt;/li&gt;
-&lt;li&gt;Creating test connectors for integration tests is also possible.&lt;/li&gt;
-&lt;/ol&gt;&lt;p&gt;&lt;strong&gt;Detailed information, examples and download of Maven-Plugin&lt;/strong&gt;&lt;br /&gt;&lt;a href=&quot;http://www.jr-database-tools.com&quot; rel=&quot;nofollow&quot;&gt;www.jr-database-tools.com&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt; &lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Mon, 27 Feb 2017 23:53:17 +0000</pubDate>
- <dc:creator>jrichter847</dc:creator>
- <guid isPermaLink="false">3315242 at https://marketplace.eclipse.org</guid>
- <comments>https://marketplace.eclipse.org/content/plsql-enterprise-workbench#comments</comments>
-  </item>
-  <item>
-    <title>UML Lab Modeling IDE</title>
-    <link>https://marketplace.eclipse.org/content/uml-lab-modeling-ide</link>
-    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img typeof=&quot;foaf:Image&quot; class=&quot;img-responsive&quot; src=&quot;https://marketplace.eclipse.org/sites/default/files/Eclipse%20Marketplace%20Listing%20-%20Round-Trip-Engineering%20%282%29%20110x80.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/lgeiger/listings&quot; title=&quot;Leif Geiger&quot;&gt;Leif Geiger&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Thu, 2010-11-11 09:06&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2021-08-17 15:34&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Yatta%20Solutions%20GmbH%22&quot;&gt;Yatta Solutions GmbH&lt;/a&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot; property=&quot;content:encoded&quot;&gt;&lt;h2&gt;UML Lab Modeling IDE&lt;/h2&gt;
-&lt;p&gt;
-&lt;a href=&quot;http://www.uml-lab.com/uml-lab/eclipse/?origin=eclipse&quot; target=&quot;umllab&quot; rel=&quot;nofollow&quot;&gt;UML Lab&lt;/a&gt; is the first Modeling IDE to seamlessly combine modeling and programming with an intuitive UML diagram editor and &lt;a href=&quot;http://www.uml-lab.com/uml-lab/features/roundtrip/?origin=eclipse&quot; target=&quot;umllab&quot; rel=&quot;nofollow&quot;&gt;next-gen round-trip engineering&lt;/a&gt;. Import your software project and get a nice overview via UML within seconds. Experience truly agile modeling and coding within your Eclipse IDE.&lt;/p&gt;
-&lt;p&gt;In short, &lt;a href=&quot;http://www.uml-lab.com/uml-lab/eclipse/?origin=eclipse&quot; target=&quot;umllab&quot; rel=&quot;nofollow&quot;&gt;UML Lab&lt;/a&gt; helps you develop great software.&lt;/p&gt;
-&lt;h3&gt;UML Lab Features for Eclipse Modeling&lt;/h3&gt;
-&lt;ul&gt;&lt;li&gt;Template-based Reverse- and Round-Trip-Engineering NG&lt;/li&gt;
-&lt;li&gt;UML 2.5 class diagram editor with Xpand/Xtend integration&lt;/li&gt;
-&lt;li&gt;Java templates with best practices and patterns included (POJO, JPA, JEE)&lt;/li&gt;
-&lt;li&gt;Java 8 ready&lt;/li&gt;
-&lt;li&gt;PHP templates including MySQL, Zend Framework and CakePHP support&lt;/li&gt;
-&lt;li&gt;Model-based code validation (OCL)&lt;/li&gt;
-&lt;li&gt;Navigation and model exploration&lt;/li&gt;
-&lt;li&gt;Quick overview for any Mylyn task with Context Class Diagrams&lt;/li&gt;
-&lt;li&gt;Task-focussed modeling with Mylyn and round-trip context synchronization&lt;/li&gt;
-&lt;li&gt;XMI import/export (Rational Software Architect, TopCASED, Eclipse UML2)&lt;/li&gt;
-&lt;li&gt;Diagram export (svg, png, jpg, bmp)&lt;/li&gt;
-&lt;/ul&gt;&lt;h3&gt;Get UML Lab&lt;/h3&gt;
-&lt;p&gt;Visit our &lt;a href=&quot;http://www.uml-lab.com/uml-lab/eclipse/?origin=eclipse&quot; target=&quot;umllab&quot; rel=&quot;nofollow&quot;&gt;website&lt;/a&gt; for more information, pricing and to download a &lt;a href=&quot;http://www.yatta.de/products/uml-lab/en/download?origin=eclipse&quot; target=&quot;umllab&quot; rel=&quot;nofollow&quot;&gt;FREE 30-Day Trial&lt;/a&gt; of UML Lab. Annual licenses are available from EUR 20 including support and updates; &lt;a href=&quot;http://www.uml-lab.com/academic/?origin=eclipse&quot; target=&quot;umllab&quot; rel=&quot;nofollow&quot;&gt;Academic Licenses&lt;/a&gt; are free.&lt;/p&gt;
-&lt;h3&gt;Contact us&lt;/h3&gt;
-&lt;p&gt;Missing some information? Post your question in our &lt;a href=&quot;https://forum.yatta.de/?origin=eclipse&quot; target=&quot;umllab&quot; rel=&quot;nofollow&quot;&gt;forum&lt;/a&gt; or &lt;a href=&quot;https://www.yatta.de/en/contact/?origin=eclipse&quot; target=&quot;umllab&quot; rel=&quot;nofollow&quot;&gt;contact us&lt;/a&gt; and follow the latest Yatta News on &lt;a href=&quot;http://twitter.com/YattaSolutions/&quot; target=&quot;umllab&quot; rel=&quot;nofollow&quot;&gt;Twitter&lt;/a&gt; (e.g. UMLlab ) and &lt;a href=&quot;http://facebook.com/YattaSolutions/&quot; target=&quot;umllab&quot; rel=&quot;nofollow&quot;&gt;Facebook&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;</description>
-     <pubDate>Thu, 11 Nov 2010 14:06:52 +0000</pubDate>
- <dc:creator>lgeiger</dc:creator>
- <guid isPermaLink="false">19495 at https://marketplace.eclipse.org</guid>
- <comments>https://marketplace.eclipse.org/content/uml-lab-modeling-ide#comments</comments>
   </item>
   </channel>
 </rss>

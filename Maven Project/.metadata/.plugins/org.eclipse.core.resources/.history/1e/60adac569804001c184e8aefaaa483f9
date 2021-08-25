@@ -1,0 +1,47 @@
+package Utilities;
+
+import java.io.IOException;
+
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
+public class ExcelUtilities {
+	static String projPath = System.getProperty("user.dir");
+	static XSSFWorkbook workbook;
+	static XSSFSheet sheet;
+	public static void main(String[] args) {
+		getRowCount();
+		getCellData();
+	}
+	public static void getRowCount(){
+		
+		String projPath = System.getProperty("user.dir");
+		
+		try {
+			workbook = new XSSFWorkbook(projPath +"\\Excel\\TestData.xlsx");
+			sheet = workbook.getSheet("Waybill");
+			int rowCount = sheet.getPhysicalNumberOfRows();
+			System.out.println(rowCount);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			System.out.println(e.getMessage());
+			e.printStackTrace();
+		}
+		
+	}
+	
+	public static void getCellData(){
+		try {
+			workbook = new XSSFWorkbook(projPath +"\\Excel\\TestData.xlsx");
+			sheet = workbook.getSheet("Waybill");
+			double cellData = sheet.getRow(0).getCell(0).getNumericCellValue();
+			System.out.println(cellData);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			System.out.println(e.getMessage());
+			e.printStackTrace();
+		}
+		
+	}
+
+}
