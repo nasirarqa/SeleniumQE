@@ -61,9 +61,9 @@ public class BlueDart {
 		String projPath = udPath+"\\Excel\\TestData.xlsx";
 		Utilities.ExcelUtilities xlUtil = new Utilities.ExcelUtilities(projPath, "Waybill");
 		int total = xlUtil.getRowCount();
-		for(int i=1;i<total; i++){
+		for(int i=1;i<=total; i++){
 			 Object cData = xlUtil.getCellData(i, 0);
-			 Thread.sleep(5000);
+		
 		WebElement waybillTextbox = driver.findElement(By.xpath("//div//textarea[@id='trackingNoTrackDart']"));
 		waybillTextbox.sendKeys(String.valueOf(cData));
 		WebElement goButton = driver.findElement(By.xpath("//p//input[1][@id='goBtnTrackDart']"));
@@ -76,19 +76,16 @@ public class BlueDart {
 			
 		if(actualStatus.contains(expectedStatus)){
 			System.out.println("Shipment is delivered with the status "+ actualStatus);
-			WebElement bdLogo = driver.findElement(By.xpath("//img[@class='logoWidth']"));
-			bdLogo.click();
 		}
 		else
 		{
 			System.out.println("Shipment is not delivered with the status "+actualStatus);
-			WebElement bdLogo = driver.findElement(By.xpath("//img[@class='logoWidth']"));
-			bdLogo.click();
 		}
 		
+		Thread.sleep(3000);
 		
-		
-		
+		WebElement bdLogo = driver.findElement(By.xpath("//img[@class='logoWidth']"));
+		bdLogo.click();
 		}
 		
 	}	

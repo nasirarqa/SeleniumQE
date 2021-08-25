@@ -61,7 +61,7 @@ public class BlueDart {
 		String projPath = udPath+"\\Excel\\TestData.xlsx";
 		Utilities.ExcelUtilities xlUtil = new Utilities.ExcelUtilities(projPath, "Waybill");
 		int total = xlUtil.getRowCount();
-		for(int i=1;i<total; i++){
+		for(int i=1;i<=total; i++){
 			 Object cData = xlUtil.getCellData(i, 0);
 			 Thread.sleep(5000);
 		WebElement waybillTextbox = driver.findElement(By.xpath("//div//textarea[@id='trackingNoTrackDart']"));

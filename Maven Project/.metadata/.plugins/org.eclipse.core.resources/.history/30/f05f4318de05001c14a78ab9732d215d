@@ -1,5 +1,3 @@
-import static org.testng.Assert.assertEquals;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,7 +5,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -56,14 +53,14 @@ public class BlueDart {
 	}
 	
 	@Test
-	public void checkTracking() throws InterruptedException{
+	public void checkTracking(){
 		String udPath = System.getProperty("user.dir");
 		String projPath = udPath+"\\Excel\\TestData.xlsx";
 		Utilities.ExcelUtilities xlUtil = new Utilities.ExcelUtilities(projPath, "Waybill");
 		int total = xlUtil.getRowCount();
-		for(int i=1;i<total; i++){
-			 Object cData = xlUtil.getCellData(i, 0);
-			 Thread.sleep(5000);
+		for(int i=1;i<=total; i++){
+			double cData = xlUtil.getCellData(i, 0);
+		
 		WebElement waybillTextbox = driver.findElement(By.xpath("//div//textarea[@id='trackingNoTrackDart']"));
 		waybillTextbox.sendKeys(String.valueOf(cData));
 		WebElement goButton = driver.findElement(By.xpath("//p//input[1][@id='goBtnTrackDart']"));
@@ -73,31 +70,17 @@ public class BlueDart {
 		actualStatus = statusText.getText();
 		
 		//assert actualStatus.contains(expectedStatus);
-			
+		
 		if(actualStatus.contains(expectedStatus)){
 			System.out.println("Shipment is delivered with the status "+ actualStatus);
-			WebElement bdLogo = driver.findElement(By.xpath("//img[@class='logoWidth']"));
-			bdLogo.click();
 		}
 		else
 		{
 			System.out.println("Shipment is not delivered with the status "+actualStatus);
-			WebElement bdLogo = driver.findElement(By.xpath("//img[@class='logoWidth']"));
-			bdLogo.click();
 		}
-		
-		
-		
-		
 		}
 		
 	}	
-	
-/*	@AfterMethod
-	public void navHomePage(){
-		WebElement bdLogo = driver.findElement(By.xpath("//img[@class='logoWidth']"));
-		bdLogo.click();
-	} */
 		
 	@AfterTest
 	

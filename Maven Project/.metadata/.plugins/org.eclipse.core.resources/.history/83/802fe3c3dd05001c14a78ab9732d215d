@@ -2,7 +2,6 @@ package Utilities;
 
 import java.io.IOException;
 
-import org.apache.poi.ss.usermodel.DataFormatter;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
@@ -42,13 +41,11 @@ public class ExcelUtilities {
 		
 	}
 	
-	public static Object getCellData(int rNo, int cNo ){
-		Object cellData = null;
+	public static double getCellData(int rNo, int cNo ){
+		double cellData = 0;
 		try {
-			DataFormatter formatData = new DataFormatter();
-			cellData = formatData.formatCellValue(sheet.getRow(rNo).getCell(cNo));
-			//cellData = sheet.getRow(rNo).getCell(cNo).getNumericCellValue();
-			//System.out.println(cellData);
+			cellData = sheet.getRow(rNo).getCell(cNo).getNumericCellValue();
+			System.out.println(cellData);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			System.out.println(e.getMessage());
