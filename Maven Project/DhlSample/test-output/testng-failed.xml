@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="BlueDart">
+      <class name="Utilities.HubNode">
         <methods>
+          <include name="preLaunch"/>
           <include name="launchUrl"/>
-          <include name="checkTracking"/>
           <include name="closeDriver"/>
         </methods>
-      </class> <!-- BlueDart -->
+      </class> <!-- Utilities.HubNode -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

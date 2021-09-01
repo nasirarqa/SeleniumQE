@@ -1,12 +1,18 @@
 import static org.testng.Assert.assertEquals;
 
+import java.net.MalformedURLException;
+import java.net.URL;
+
 import org.openqa.selenium.By;
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -26,7 +32,7 @@ public class BlueDart {
 	
 
 	@BeforeTest
-	public void launchUrl(){
+	public void launchUrl() throws MalformedURLException{
 		switch (browser){
 		
 			case "Firefox":
@@ -50,7 +56,7 @@ public class BlueDart {
 				break;
 		
 		}
-		
+	
 		driver.get(url);
 		driver.manage().window().maximize();
 	}
@@ -72,7 +78,6 @@ public class BlueDart {
 		WebElement statusText = driver.findElement(By.xpath("//div[@class='panel-group trackDart-box']//div[@class='panel-bd-List']//ul//li[2]//p"));
 		actualStatus = statusText.getText();
 		
-		//assert actualStatus.contains(expectedStatus);
 			
 		if(actualStatus.contains(expectedStatus)){
 			System.out.println("Shipment is delivered with the status "+ actualStatus);
@@ -84,20 +89,18 @@ public class BlueDart {
 			System.out.println("Shipment is not delivered with the status "+actualStatus);
 			WebElement bdLogo = driver.findElement(By.xpath("//img[@class='logoWidth']"));
 			bdLogo.click();
-		}
-		
-		
+		}	
 		
 		
 		}
 		
 	}	
 	
-/*	@AfterMethod
+	@AfterMethod
 	public void navHomePage(){
 		WebElement bdLogo = driver.findElement(By.xpath("//img[@class='logoWidth']"));
 		bdLogo.click();
-	} */
+	} 
 		
 	@AfterTest
 	
