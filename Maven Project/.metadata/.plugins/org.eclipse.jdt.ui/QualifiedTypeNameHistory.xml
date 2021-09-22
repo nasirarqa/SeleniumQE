@@ -8,7 +8,6 @@
 <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
 <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
 <fullyQualifiedTypeName name="org.testng.annotations.BeforeTest"/>
-<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
 <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFWorkbook"/>
 <fullyQualifiedTypeName name="org.apache.poi.xssf.usermodel.XSSFSheet"/>
 <fullyQualifiedTypeName name="Utilities.ExcelUtilities"/>
@@ -20,4 +19,10 @@
 <fullyQualifiedTypeName name="org.openqa.selenium.remote.RemoteWebDriver"/>
 <fullyQualifiedTypeName name="java.net.URL"/>
 <fullyQualifiedTypeName name="org.testng.annotations.AfterTest"/>
+<fullyQualifiedTypeName name="io.restassured.RestAssured"/>
+<fullyQualifiedTypeName name="org.hamcrest.Matchers"/>
+<fullyQualifiedTypeName name="javafx.scene.chart.PieChart.Data"/>
+<fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+<fullyQualifiedTypeName name="com.oracle.jrockit.jfr.ContentType"/>
+<fullyQualifiedTypeName name="com.github.fge.jsonschema.main.cli.Main"/>
 </qualifiedTypeNameHistroy>

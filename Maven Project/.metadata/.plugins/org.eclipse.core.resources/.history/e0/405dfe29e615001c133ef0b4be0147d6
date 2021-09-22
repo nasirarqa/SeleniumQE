@@ -1,0 +1,44 @@
+package API;
+import static io.restassured.RestAssured.given;
+import org.hamcrest.Matchers;
+
+import javafx.scene.chart.PieChart.Data;
+
+public class APItesting {
+public static void main(String[] args) {
+	
+/*	given()
+			.header("Content-Type", "application/json")
+			.header("Authorization", "Bearer ff29e37a8b54482225d4fe07e2d437592ebe0918ac489db4faa99ef5249c7a78")
+			.body("{\n" +
+						"	\"name\": \"Nasirtest Usertwo\",\n" +
+						" 	\"gender\": \"male\", \n" +
+						"	\"email\": \"nasirT.user2@testapi.com\",\n" +
+						" 	\"status\": \"active\\n" +
+						"}")
+			.log()
+			.all()
+			.when()
+			.post("https://gorest.co.in/public/v1/users")
+			.then()
+			.log()
+			.all()
+			.assertThat()
+			.statusCode(200)
+			.body("Data.gender", Matchers.equalTo("male"));*/
+	
+	given()
+			.header("Content-Type", "application/json")
+			.log()
+			.all()
+			.when()
+			.post("https://gorest.co.in/public/v1/users/1370")
+			.then()
+			.log()
+			.all()
+			.assertThat()
+			.statusCode(200)
+			.body("Data.name", Matchers.equalTo("Nasirtest"));
+			
+}
+}

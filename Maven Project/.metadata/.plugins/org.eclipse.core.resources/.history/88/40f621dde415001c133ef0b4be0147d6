@@ -1,0 +1,22 @@
+package API;
+import static io.restassured.RestAssured.given;
+import org.hamcrest.Matchers;
+
+public class APItesting {
+public static void main(String[] args) {
+	
+	given()
+			.header("Content-Type", "application/json")
+			.body("{
+				    "name": "Nasirtest Userone",
+				    "gender": "male",
+				    "email": "nasirT.user1@testapi.com",
+				    "status": "active"
+				}")
+			.log()
+			.all()
+			.
+	
+	
+}
+}

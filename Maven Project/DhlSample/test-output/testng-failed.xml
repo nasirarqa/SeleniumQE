@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Utilities.HubNode">
+      <class name="API.APItesting">
         <methods>
-          <include name="preLaunch"/>
-          <include name="launchUrl"/>
-          <include name="closeDriver"/>
+          <include name="addUser"/>
         </methods>
-      </class> <!-- Utilities.HubNode -->
+      </class> <!-- API.APItesting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

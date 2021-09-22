@@ -1,0 +1,51 @@
+package API;
+import static io.restassured.RestAssured.given;
+import org.hamcrest.Matchers;
+import org.testng.annotations.Test;
+
+import javafx.scene.chart.PieChart.Data;
+
+public class APItesting {
+String Token = "d3ff59156616d67b3e0f5123bdebd6608519592d88a3b5430a2bcb2a09a04032";
+	
+@Test
+public void addUser(){
+	given()
+			
+			.header("Content-Type", "application/json")
+			.header("Authorization", "Bearer "+Token)
+			
+			.body("{\n" +
+						"	\"name\": \"Harshad Patil\",\n" +
+						" 	\"gender\": \"male\", \n" +
+						"	\"email\": \"\",\n" +
+						" 	\"status\": \"active\\n" +
+						"}")
+			.log()
+			.all()
+	.when()
+			.post("https://gorest.co.in/public/v1/users")
+	.then()
+			.log()
+			.all()
+			.assertThat()
+			.statusCode(200)
+			.body("data.gender", Matchers.equalTo("male"));
+}
+//@Test
+public void getUser(){
+	given()
+			.header("Content-Type", "application/json")
+			.log()
+			.all()
+			.when()
+			.get("https://gorest.co.in/public/v1/users/1370")
+			.then()
+			.log()
+			.all()
+			.assertThat()
+			.statusCode(200)
+			.body("data.status", Matchers.equalTo("active"));
+			
+}
+}

@@ -2,11 +2,13 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="testAPI"/>
 			<item value="com.selenium.maven"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="TestAPI"/>
 			<item value="DhlSample"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -45,6 +47,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Selenium Practice\Maven Project\DhlSample\pom.xml"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

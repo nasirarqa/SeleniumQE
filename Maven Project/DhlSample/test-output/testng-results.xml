@@ -1,29 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="73532" started-at="2021-09-01T04:46:46Z" finished-at="2021-09-01T04:48:00Z">
+  <suite name="Default suite" duration-ms="6767" started-at="2021-09-21T04:23:28Z" finished-at="2021-09-21T04:23:35Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="73532" started-at="2021-09-01T04:46:46Z" finished-at="2021-09-01T04:48:00Z">
-      <class name="BlueDart">
-        <test-method status="PASS" signature="launchUrl()[pri:0, instance:BlueDart@5025a98f]" name="launchUrl" is-config="true" duration-ms="44697" started-at="2021-08-31T23:46:46Z" finished-at="2021-08-31T23:47:31Z">
+    <test name="Default test" duration-ms="6767" started-at="2021-09-21T04:23:28Z" finished-at="2021-09-21T04:23:35Z">
+      <class name="API.APItesting">
+        <test-method status="PASS" signature="addUser()[pri:0, instance:API.APItesting@49fc609f]" name="addUser" duration-ms="4906" started-at="2021-09-20T23:23:28Z" finished-at="2021-09-20T23:23:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchUrl -->
-        <test-method status="PASS" signature="checkTracking()[pri:0, instance:BlueDart@5025a98f]" name="checkTracking" duration-ms="28039" started-at="2021-08-31T23:47:31Z" finished-at="2021-08-31T23:47:59Z">
+        </test-method> <!-- addUser -->
+        <test-method status="PASS" signature="getUser()[pri:0, instance:API.APItesting@49fc609f]" name="getUser" duration-ms="1842" started-at="2021-09-20T23:23:33Z" finished-at="2021-09-20T23:23:35Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkTracking -->
-        <test-method status="PASS" signature="navHomePage()[pri:0, instance:BlueDart@5025a98f]" name="navHomePage" is-config="true" duration-ms="83" started-at="2021-08-31T23:47:59Z" finished-at="2021-08-31T23:47:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navHomePage -->
-        <test-method status="PASS" signature="closeDriver()[pri:0, instance:BlueDart@5025a98f]" name="closeDriver" is-config="true" duration-ms="684" started-at="2021-08-31T23:47:59Z" finished-at="2021-08-31T23:48:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDriver -->
-      </class> <!-- BlueDart -->
+        </test-method> <!-- getUser -->
+      </class> <!-- API.APItesting -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
